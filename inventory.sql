@@ -32,6 +32,9 @@ VALUES (2, 'Battle Axe', 'An axe crafted by the orcs. Filled with furry and hate
 INSERT INTO items (item_id, name, description)
 VALUES (3, 'Orcish Chest Plate', 'Unrefined plate armor made from the average orc blacksmith.')
 
+INSERT INTO items (item_id, name, description)
+VALUES (4, 'Improved Plate Guard', 'Improved Armor made from improved orcalimite ingots.')
+
 
 --item to player to inventory insertion
 INSERT INTO inventory (inventory_id, player_id, item_id, quantity)
@@ -42,3 +45,6 @@ VALUES (1, 1, 2, 1)
 
 INSERT INTO inventory (inventory_id, player_id, item_id, quantity)
 VALUES (1, 1, 3, 1)
+
+INSERT INTO inventory (inventory_id, player_id, item_id, quantity)
+VALUES (1, 1, 4, 1)
