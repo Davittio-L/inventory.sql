@@ -35,6 +35,9 @@ VALUES (3, 'Orcish Chest Plate', 'Unrefined plate armor made from the average or
 INSERT INTO items (item_id, name, description)
 VALUES (4, 'Improved Plate Guard', 'Improved Armor made from improved orcalimite ingots.')
 
+INSERT INTO items (item_id, name, description)
+VALUES (5, 'Masterful Plate Guard', 'Master Crafted Armor from the finest smiths in the relm')
+
 
 --item to player to inventory insertion
 INSERT INTO inventory (inventory_id, player_id, item_id, quantity)
@@ -48,3 +51,6 @@ VALUES (1, 1, 3, 1)
 
 INSERT INTO inventory (inventory_id, player_id, item_id, quantity)
 VALUES (1, 1, 4, 1)
+
+INSERT INTO inventory (inventory_id, player_id, item_id, quantity)
+VALUES (1, 1, 5, 1)
